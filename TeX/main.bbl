@@ -1,0 +1,152 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global/global}
+  \entry{bk:NumAn}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=GW}{%
+         family={Gautschi},
+         familyi={G\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Birkh\"auser}%
+    }
+    \strng{namehash}{GW1}
+    \strng{fullhash}{GW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Numerical Analysis}
+    \verb{url}
+    \verb https://link.springer.com/book/10.1007/978-0-8176-8259-0
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{bk:TenAn}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=BRL}{%
+         family={Bishop},
+         familyi={B\bibinitperiod},
+         given={Richard\bibnamedelima L},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GSI}{%
+         family={Goldberg},
+         familyi={G\bibinitperiod},
+         given={Samuel\bibnamedelima I},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Dover}%
+    }
+    \strng{namehash}{BRLGSI1}
+    \strng{fullhash}{BRLGSI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Tensor analysis on manifolds}
+    \field{year}{1980}
+  \endentry
+
+  \entry{bk:CompFunAn}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=MRE}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Ramon\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley \& Sons}%
+    }
+    \strng{namehash}{MRE1}
+    \strng{fullhash}{MRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Computational functional analysis}
+    \field{year}{1985}
+  \endentry
+
+  \entry{bk:NumAnFunAn}{mvbook}{}{}
+    \name{author}{2}{}{%
+      {{hash=AK}{%
+         family={Atkinson},
+         familyi={A\bibinitperiod},
+         given={Kendall},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Weimin},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{AKHW1}
+    \strng{fullhash}{AKHW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{series}{Texts in Applied Mathematics}
+    \field{title}{Theoretical Numerical Analysis}
+    \verb{url}
+    \verb https://link.springer.com/book/10.1007/978-1-4419-0458-4
+    \endverb
+    \field{volume}{39}
+    \field{year}{2009}
+  \endentry
+
+  \entry{art:Zupan}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=ZE}{%
+         family={Zupan},
+         familyi={Z\bibinitperiod},
+         given={Eva},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=ZD}{%
+         family={Zupan},
+         familyi={Z\bibinitperiod},
+         given={Dejan},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZEZD1}
+    \strng{fullhash}{ZEZD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{1379\bibrangedash 1394}
+    \field{title}{On conservation of energy and kinematic compatibility in
+  dynamics of nonlinear velocity-based three-dimensional beams}
+    \verb{url}
+    \verb https://link.springer.com/article/10.1007/s11071-018-4634-y
+    \endverb
+    \field{volume}{95}
+    \field{journaltitle}{Nonlinear Dynamics, Springer}
+    \field{month}{11}
+    \field{year}{2018}
+  \endentry
+\enddatalist
+\endinput

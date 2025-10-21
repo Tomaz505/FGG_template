@@ -1,0 +1,132 @@
+%   Naslov Poglavja
+\titleformat{\section}
+	{\setcounter{equation}{0}
+	\normalfont
+	\fontsize{14pt}{11pt}
+	\selectfont\bfseries}
+	{\thesection}
+	{1em}
+	{}
+
+%   Naslov Podpoglavja
+\titleformat{\subsection}
+	{\normalfont
+	\fontsize{11pt}{11pt}
+	\selectfont
+	\bfseries}
+	{\thesubsection}
+	{0.7em}
+	{}
+
+
+%   Naslov Podpodpoglavja
+\titleformat{\subsubsection}
+	{\normalfont
+	\fontsize{11pt}{11pt}
+	\selectfont
+	\bfseries}
+	{\thesubsubsection}
+	{0.2em}
+	{}
+
+
+
+
+% Seznami vsebine
+\newlistof{priloge}{app}{}
+
+\makeatletter
+\AtBeginDocument{
+\renewcommand\contentsname{}
+\renewcommand\listtablename{}
+\renewcommand\listfigurename{}
+}
+\makeatother
+
+
+\setlength{\cfttabindent}{0em}
+\setlength{\cftfigindent}{0em}
+\setlength{\cftsubsecindent}{0em}
+\setlength{\cftsubsubsecindent}{0em}
+
+\setlength{\cftsecnumwidth}{8mm}
+\setlength{\cftsubsecnumwidth}{8mm}
+\setlength{\cftsubsubsecnumwidth}{12mm}
+
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsecpagefont}{\normalfont}
+
+\renewcommand{\cftsecleader}{\normalfont\cftdotfill{\cftsecdotsep}}
+\renewcommand{\cftsecdotsep}{.}
+\renewcommand{\cftsubsecdotsep}{.}
+\renewcommand{\cftsubsubsecdotsep}{.}
+\renewcommand{\cftfigdotsep}{.}
+\renewcommand{\cfttabdotsep}{.}
+
+
+
+\renewcommand{\cftfigaftersnum}{\protect{: } }
+\renewcommand{\cfttabaftersnum}{\protect{: } }
+\renewcommand{\cftfigpresnum}{\protect{Slika} }
+\renewcommand{\cfttabpresnum}{\protect{Preglednica} }
+
+\setlength{\cfttabnumwidth}{2.45cm}
+\setlength{\cftfignumwidth}{1.3cm}
+
+
+%\renewcommand{\@tocrmarg}{0cm}
+
+
+
+
+
+\newcommand{\appendixpagenumbering}
+	{\break \renewcommand{\thepage}{\Alph{priloge}--\arabic{page}}}
+
+\newcommand{\appendixsection}[1]
+	{\refstepcounter{priloge}
+	\setcounter{page}{1}
+	\par\noindent\textbf{PRILOGA \Alph{priloge}: \uppercase{#1}}
+	\addcontentsline{app}{priloge}{\protect{Priloga }\numberline{\Alph{priloge}: }#1}}
+
+\cftpagenumbersoff{priloge}
+
+
+
+
+
+
+%   Oblika Glave in noge
+\fancypagestyle{plain}
+	{\fancyhf{}
+    	\fancyhead[C]{\scriptsize Priimek, I. 2026. \newtitle}
+    	\fancyfoot[C]{\thepage}}\renewcommand{\cftfigpresnum}{\protect{Slika} }
+\renewcommand{\cfttabpresnum}{\protect{Preglednica} }
+
+\pagestyle{plain}
+
+%   Naslov dodatka
+
+%\renewcommand{\section}[1]{\setcounter{equation}{0} \section{#1}}
+%   Strani Dodatka
+
+% Opisi pri preglednicah in slikah
+\captionsetup[table]{name=Preglednica}
+\captionsetup[figure]{name=Slika}
+
+\let\caption\engcaption
+\newcommand{\engcaption}[2]
+	{\caption{#1}Figure \thefigure: {#2}\hfill}
+
+\newcommand{\praznastran}
+	{\newpage \begin{center} \textit{(Ta stran je namenoma prazna)} \end{center} \newpage}
+
+%Enačba (sec.X)
+%\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
+		
+
+
+%\makeatletter
+%\AtBeginDocument{\let\mathaccentV\AMS@mathaccentV}
+%\makeatother
+
