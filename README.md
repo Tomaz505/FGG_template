@@ -15,3 +15,5 @@ Za delujoče povezave in bibliografijo compajlaj z
 
 V VSC si lahko pripraviš ukaz, ki to naredi z enim klikom.
 
+## Potrebni popravki
+Uvodne strani so še v skladu s staro podlogo.
