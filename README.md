@@ -1,5 +1,5 @@
 # PODLOGA ZA ZAKLJUČNA DELA NA FGG
-Pripravljena osnova za zaključna dela na FGG.
+Pripravljena osnova za zaključna dela na FGG. Jaz uporabljam \TeXLive distribucijo.
 
 
 ## Osnovni podatki
@@ -12,7 +12,18 @@ Pripravljena osnova za zaključna dela na FGG.
 ## Pisanje
 Podloga je zasnovana tako, da v mapo **Sec** dodajaš posamezne dele besedila v datoteke s končnico **.tex**. Slike in priloge dodajaj v mapo **Img**.
 Ko z delom zaključuješ popravi števila strani, preglednic, slik itd. v **Sec/0_biblio_zakljucna.tex**.
- 
+
+### Sestavljanje **main.pdf**
+Če uporabljaš IDE kot je VSC ali Overleaf, lahko uporabiš gumbe za sestavljanje .pdf datoteke. Pri tem moraš biti pozoren saj je ponekod potrebno programu povedat katera datoteka je glavna.
+V ukazni vrstici (ko se nahajaš v mapi TeX) .pdf sestaviš z ukazi `pdflatex main` in `bibtex main`. Za sestavo datoteke iz nič maraš izvesti 
+```
+pdflatex main
+bibtex main
+pdflatex main
+pdflatex main
+```
+Možna je tudi uporaba ukaza `make`, ki izvede ukaze v **makefile**.
+Sledenje je potrebno še testirati za Windows operacijskih sistemih
 
 ## Potrebni popravki
  - Razmik med elementi kazala.
