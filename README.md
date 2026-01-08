@@ -15,8 +15,8 @@ Ko z delom zaključuješ popravi števila strani, preglednic, slik itd. v **Sec/
  
 
 ## Potrebni popravki
- [ ] Razmik med elementi kazala.
- [ ] Slog naslovov.
- [ ] Navajanje virov in privzeti dopisi.
- [ ] Razmaki v bibliograbsko dokumentacijski strani.
- [ ] Preveri če **$ make** deluje na Windowsih.
+ - Razmik med elementi kazala.
+ - Slog naslovov.
+ - Navajanje virov in privzeti dopisi.
+ - Razmaki v bibliograbsko dokumentacijski strani.
+ - Preveri če **$ make** deluje na Windowsih.
