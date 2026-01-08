@@ -23,7 +23,8 @@ pdflatex main
 pdflatex main
 ```
 Možna je tudi uporaba ukaza `make`, ki izvede ukaze v **makefile**.
-Sledenje je potrebno še testirati za Windows operacijskih sistemih
+Ta ne deluje na WIndowsovem PowerShellu, lahko se pa na računalnih inštalira **GIT bash
+**, ki ta ukaz izvede brez napak.
 
 ## Potrebni popravki
  - Razmik med elementi kazala.
