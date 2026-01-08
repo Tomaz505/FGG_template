@@ -1,19 +1,21 @@
-# Podloga za zaključna dela na FGG
-Pripravljena osnova za zaključna dela.
+# PODLOGA ZA ZAKLJUČNA DELA NA FGG
+Pripravljena osnova za zaključna dela na FGG.
 
 
-## Uporaba
-Popravi podatke o delu (naslov, ime, ...).
+## Osnovni podatki
+ - V **main.tex** vnesi podatke avtorja, naslova, leta, itd...
+ - V **Sec/0_biblio_zakljucna.tex** moraš ročno vnesti naslov dela, če ta sega čez več vrstic.
+ - V **Sec/0_biblio_zakljucna.tex** popravi stopnjo, in smer študija.
+ - V **Sec/0_biblio_zakljucna.tex** napišeš zahvalo, ključne besede in izvleček (tudi v angleščini).
+ - V **output.xmpdata** popravi podatke avtorja in dela.
 
-Priporočam pisanje v več datotekah (Tako kot je nastavljea podloga).
-
-Za delujoče povezave in bibliografijo compajlaj z
-1. pdflatex main
-2. bibtex main
-3. pdflatex main
-4. pdflatex main
-
-V VSC si lahko pripraviš ukaz, ki to naredi z enim klikom.
+## Pisanje
+Podloga je zasnovana tako, da v mapo **Sec** dodajaš posamezne dele besedila v datoteke s končnico **.tex**. Slike in priloge dodajaj v mapo **Img**.
+Ko z delom zaključuješ popravi števila strani, preglednic, slik itd. v **Sec/0_biblio_zakljucna.tex**.
+ 
 
 ## Potrebni popravki
-Uvodne strani so še v skladu s staro podlogo.
+ [] Razmik med elementi kazala.
+ [] Slog naslovov.
+ [] Navajanje virov in privzeti dopisi.
+ [] Razmaki v bibliograbsko dokumentacijski strani
