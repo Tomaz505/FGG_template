@@ -1,8 +1,8 @@
 %   Naslov Poglavja
 \titleformat{\section}
-	{\setcounter{equation}{0}
+	{%\setcounter{equation}{0}
 	\normalfont
-	\fontsize{14pt}{11pt}
+	\fontsize{13pt}{11pt}
 	\selectfont\bfseries}
 	{\thesection}
 	{1em}
@@ -72,6 +72,7 @@
 
 \setlength{\cfttabnumwidth}{2.45cm}
 \setlength{\cftfignumwidth}{1.3cm}
+\setlength{\cftbeforesecskip}{0pt}
 
 
 %\renewcommand{\@tocrmarg}{0cm}
@@ -99,8 +100,9 @@
 %   Oblika Glave in noge
 \fancypagestyle{plain}
 	{\fancyhf{}
-    	\fancyhead[C]{\scriptsize Priimek, I. 2026. \newtitle}
-    	\fancyfoot[C]{\thepage}}\renewcommand{\cftfigpresnum}{\protect{Slika} }
+    	\fancyhead[C]{\scriptsize \priimek, \StrChar{\ime}{1}. \leto. \naslov.}
+    	\fancyfoot[C]{\thepage}}
+\renewcommand{\cftfigpresnum}{\protect{Slika} }
 \renewcommand{\cfttabpresnum}{\protect{Preglednica} }
 
 \pagestyle{plain}
@@ -121,12 +123,15 @@
 \newcommand{\praznastran}
 	{\newpage \begin{center} \textit{(Ta stran je namenoma prazna)} \end{center} \newpage}
 
+
 %Enačba (sec.X)
 %\renewcommand{\theequation}{\arabic{section}.\arabic{equation}}
-		
+
+%Parcialniodvod v točki
+\newcommand{\partialx}[2]{\partial_{#1}{\scriptscriptstyle(#2)}}
 
 
-%\makeatletter
-%\AtBeginDocument{\let\mathaccentV\AMS@mathaccentV}
-%\makeatother
+\makeatletter
+\AtBeginDocument{\let\mathaccentV\AMS@mathaccentV}
+\makeatother
 

@@ -1,22 +1,40 @@
 %\documentclass{MyClassSingle}
 \input{./Sec/0_pkg}
 \input{./Sec/0_com}
-
-
 \addbibresource{Reference.bib}
+
+
 % Zakomentiraj da odstraniš .pdfa format. Uredi podake v output.xmpdata za .pdfa.
-%\usepackage[a-2u]{pdfx} 
+\usepackage[a-2u]{pdfx}
 
 
 % ToolTip ukazi
 \input{./Sec/0_preamp_tooltip}
 
-
+% Urejanje avtomatskega napisa
+\DefineBibliographyStrings{slovene}{
+  url = {}
+}
 
 
 
 
 \begin{document}
+% V N O S   P O D A T K O V
+\def\naslov{Nelinearna dinamika ravninskih nosilcev}
+\def\nasloveng{Nonlinear dynamics of planar beams}
+\def\priimek{Priimek}
+\def\ime{Ime}
+\def\doctype{Magistersko delo}
+\def\institucija{UL FGG}
+\def\kraj{Ljubljana}
+\def\leto{2026}
+\def\mentor{Dejan Zupan}
+\def\naziv{prof. dr.}
+\def\UDK{123}
+%NE POZABI:
+    %popravit podatkov v output.xmpdata
+
 
 
 
@@ -48,11 +66,14 @@
 \setcounter{page}{1}
 
 
+
+
 %\break
 %Poglavja
 \input{Sec/1_section1}
-
-
+%\include{Sec/1_section2}
+% itd...
+\thetable
 
 
 
@@ -65,9 +86,9 @@
 \appendix
 \appendixpagenumbering
 
-
 \include{Sec/2_appendix1}
 \include{Sec/2_appendix2}
+% itd...
 
 
 

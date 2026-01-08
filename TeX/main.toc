@@ -1,5 +1,0 @@
-\babel@toc {slovenian}{}\relax 
-\contentsline {section}{\numberline {1}NASLOV POGLAVJA PRVEGA REDA}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Testno podpoglavje}{1}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Testno podpodpoglavje}{1}{subsubsection.1.1.1}%
-\contentsline {section}{VIRI}{2}{section*.9}%
