@@ -14,8 +14,8 @@ Podloga je zasnovana tako, da v mapo **Sec** dodajaš posamezne dele besedila v 
 Ko z delom zaključuješ popravi števila strani, preglednic, slik itd. v **Sec/0_biblio_zakljucna.tex**.
 
 ### Sestavljanje **main.pdf**
-Če uporabljaš IDE kot je VSC ali Overleaf, lahko uporabiš gumbe za sestavljanje .pdf datoteke. Pri tem moraš biti pozoren saj je ponekod potrebno programu povedat katera datoteka je glavna.
-V ukazni vrstici (ko se nahajaš v mapi TeX) .pdf sestaviš z ukazi `pdflatex main` in `bibtex main`. Za sestavo datoteke iz nič maraš izvesti 
+Če uporabljaš IDE kot je VSC ali Overleaf, lahko uporabiš gumbe za sestavljanje .pdf datoteke. Pri tem moraš biti pozoren saj je ponekod potrebno programu povedati katera datoteka je glavna.
+V ukazni vrstici (ko se nahajaš v mapi TeX) .pdf sestaviš z ukazi `pdflatex main` in `bibtex main`. Za sestavo datoteke iz nič moraš izvesti 
 ```
 pdflatex main
 bibtex main
