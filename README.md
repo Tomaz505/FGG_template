@@ -30,4 +30,4 @@ Sledenje je potrebno še testirati za Windows operacijskih sistemih
  - Slog naslovov.
  - Navajanje virov in privzeti dopisi.
  - Razmaki v bibliograbsko dokumentacijski strani.
- - Preveri če **$ make** deluje na Windowsih.
+ - Preveri če `make` deluje na Windowsih.
